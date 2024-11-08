@@ -12,9 +12,9 @@ app.use(express.json()); // For parsing application/json
 
   // Enable CORS
 // Example route
-app.get('/', (req, res) => {
-  res.send('Hello, World!');
-});
+// app.get('/', (req, res) => {
+//   res.send('Hello, World!');
+// });
 
 // Start server
 app.listen(port, () => {
